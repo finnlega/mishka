@@ -1,1 +1,26 @@
+.button {
+  display: block;
+  font-size: 18px;
+  line-height: 20px;
+  .font-style();
+  text-transform: uppercase;
+  background-color: transparent;
+  // border-width: 0;
+  color: @main-color;
+  border: 2px solid @main-color;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 14px 0;
+  text-align: center;
+}
+
+.buttons__arrow {
+  border-width: 0;
+  background-color: transparent;
+  transform: translateY(10%);
+
+  &--rotate {
+    transform: rotate(180deg);
+  }
+}
 //
